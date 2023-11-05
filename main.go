@@ -1,11 +1,8 @@
 package main
 
-import (
-	"fmt"
-
-	"github.com/google/uuid"
-)
+import "github.com/DanielMEH/apiclient/src/server"
 
 func main() {
-	fmt.Println(uuid.New().String())
+
+	server.InitialServer()
 }
