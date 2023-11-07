@@ -9,6 +9,7 @@ func HomeRouters() *mux.Router {
 
 	router := mux.NewRouter()
 	router.HandleFunc("/", routers.HomeHandle)
+	router.HandleFunc("/home", routers.HomeHandle)
 
 	return router
 
